@@ -10,7 +10,7 @@ dat <-rbind(dat ,read.csv(files_list[i]))
 }
 mean(dat[,pollutant],na.rm=TRUE)
 }
-#Programming Assignment 1 part 1
+#Programming Assignment 1 part 2
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
